@@ -1,5 +1,5 @@
-import notesAPI from './notesAPI.js'
+import App from "./App.js"
 
-notesAPI.deleteNote(712648,)
+const root = document.getElementById('app')
+const app = new App(root)
 
-console.log(notesAPI.getAllNotes())
